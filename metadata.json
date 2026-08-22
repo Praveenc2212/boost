@@ -1,0 +1,6 @@
+{
+  "name": "BOOST",
+  "description": "Strategic LAN multiplayer turn-based card passing game with neon dark gaming aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Angled Back Card (Electric Blue Neon) -->
+    <path
+        android:pathData="M 32,32 L 64,24 L 76,70 L 44,78 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF"
+        android:fillColor="#3300E5FF" />
+        
+    <!-- Main Center Card (Electric Purple Neon) -->
+    <path
+        android:pathData="M 38,28 L 70,28 L 70,80 L 38,80 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#B388FF"
+        android:fillColor="#447C4DFF" />
+        
+    <!-- Angled Front Card (Magenta / Neon Violet) -->
+    <path
+        android:pathData="M 44,24 L 76,32 L 64,78 L 32,70 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FF4081"
+        android:fillColor="#22FF4081" />
+
+    <!-- Center Lightning Bolt (Golden Amber Glow) -->
+    <path
+        android:pathData="M 56,38 L 46,54 L 54,54 L 50,70 L 62,52 L 54,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="38"
+                android:endX="62"
+                android:endY="70"
+                android:type="linear">
+                <item android:color="#FFE57F" android:offset="0.0" />
+                <item android:color="#FFB300" android:offset="0.5" />
+                <item android:color="#FF6D00" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M 56,38 L 46,54 L 54,54 L 50,70 L 62,52 L 54,52 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FFFFFF"
+        android:fillColor="#00000000" />
+</vector>
